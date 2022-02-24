@@ -4,6 +4,7 @@ public class Principal {
         int rodada1 = 130;
         int rodada2 = 240;
         int rodada3 = 320;
+
         double total;
         double media;
         total = rodada1 + rodada2 + rodada3;
