@@ -2,18 +2,48 @@
 
 Estudos sobre progamação orientados a objetos utilizando java, realizada no curso de Engenharia de Software 
 
-## Introdução de java:
+## **Variaveis**
+Variáveis são contêineres para armazenar valores de dados
+```
+String- armazena texto como mais de um caracter
+int- armazena números inteiros
+float- armazena números de ponto flutuante
+char- armazena caracteres únicos
+boolean- armazena valores com dois estados: verdadeiro ou falso
+```
 
-### [Variaveis](https://www.linkedin.com/in/juliana-a-santos/)
+## **if else**
+Usado para realizar condiçoes no codigo  
+```
+if (condição) {
+  // Ação caso a condição for verdadeira
+} else if(condição){
+  // Ação caso a primeira condição for falsa e essa verdadeira
+}else {
+  // Ação caso todas as condiçoes anteriores forem falsas
+}
+```
+### Tipos de condiçoes
+```
+Menor que: a < b
+Menor ou igual: a <= b
+Maior que: a > b
+Maior ou igual: a >= b
+igual: a == b
+Diferente de: a != b
+```
 
-### Variaveis
-Primitivas: nome associado a um espaço de memória.
-
-int valor;     double pi = 3.14159;
-
-Referência: nome associado a um ponteiro que aponta para um espaço de memória. Referenciando um objeto.
-
-String palavra = "42";
-
-### ClasseString
-Stringnão é um tipo de variável e sim uma classe. Por isso ela é escrita com a primeira letra maiúscula. Esta classe é dotada de vários atributos e métodos que facilitam muito a nossa vida.
+## **Switch**
+Usando switch podera cirar case que se forem igual a expresão realizam uma ação
+```
+switch(expression) {
+  case x:
+    // Executar ação
+    break;
+  case y:
+    // Executar ação
+    break;
+  default:
+    // Executar ação
+}
+```
