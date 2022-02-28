@@ -4,7 +4,7 @@ Estudos sobre progamação orientados a objetos utilizando java, realizada no cu
 
 ## Introdução de java:
 
-### [Variaveis](https://www.linkedin.com/in/juliana-a-santos/)
+### [Variaveis](https://github.com/joaoryan/POO-Java/tree/main/Student/Variaveis)
 
 ### Variaveis
 Primitivas: nome associado a um espaço de memória.
