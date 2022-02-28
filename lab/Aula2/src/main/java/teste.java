@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface teste {
+public interface teste {
+    String teste = null;
 }
