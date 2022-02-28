@@ -1,4 +1,4 @@
-# POO-Java
+# POO-Java  <img align="center" alt="Joao-Csharp" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
 
 Estudos sobre progamação orientados a objetos utilizando java, realizada no curso de Engenharia de Software 
 
