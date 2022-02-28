@@ -1,4 +1,4 @@
-### Variaveis
+# Variaveis
 Variaveis primitivas: seu nome é associado a um espaço de memória.
 
 int valor;     double pi = 3.14159;
