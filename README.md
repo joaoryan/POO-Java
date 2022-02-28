@@ -47,3 +47,26 @@ switch(expression) {
     // Executar ação
 }
 ```
+
+## **For loop**
+Usando como estutura de repetição, podemos definir quantas vezes será repetido
+```
+for (int i = 0; i < 6; i++) {
+  // Ação que vai repetir
+}
+```
+
+## **While loop**
+Usando como estutura de repetição que se repete quando a condição for verdadeira
+```
+while (condição) {
+  // Bloco de codigo 
+}
+```
+Do while, ele executa pelo menos uma vez e verifica a condição
+```
+do {
+  // Bloco de codigo
+}
+while (condição);
+```
