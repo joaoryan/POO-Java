@@ -23,7 +23,7 @@ if (condição) {
   // Ação caso todas as condiçoes anteriores forem falsas
 }
 ```
-### Tipos de condiçoes
+Tipos de condiçoes
 ```
 Menor que: a < b
 Menor ou igual: a <= b
