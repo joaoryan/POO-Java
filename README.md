@@ -70,3 +70,72 @@ do {
 }
 while (condição);
 ```
+
+## **Entrada de dados**
+Para realizar uma entrada de dados você prescisa importar a biblioteca java.util.Scanner 
+```
+import java.util.Scanner;
+
+Scanner teclado = new Scanner (System.in);
+
+byte b = teclado.nextByte ();
+
+short s = teclado.nextShort ();
+
+int i = teclado.nextInt ();
+
+long l = teclado.nextLong ();
+
+float f = teclado.nextFloat ();
+
+double d = teclado.nextDouble ();
+
+String texto = teclado.nextLine ();
+ int i
+}
+```
+
+## **Operador ternário**
+Usando quando se deseja atribuir um valor a uma variável dependendo de uma condição ou seja substitui o if else 
+```
+condição ? ação casso a condição e verdadeira : ação casso a condição e falsa ;
+}
+```
+
+## ** Classe e objetos**
+Uma forma de criar um objeto e pela criando uma class
+```
+// ex:
+public class Funcionario {
+    int idade;
+    int cpf;
+    float salario;
+    String nome;
+}
+```
+
+## ** Construtores**
+O construtor tem o mesmo nome da class
+```
+// ex:
+
+public class Funcionario {
+    int idade;
+    int cpf;
+    float salario;
+    String nome;
+
+    Funcionario(int idade, int cpf, float salario, String nome){
+        this.idade = idade;
+        this.cpf = cpf;
+        this.salario = salario;
+        this.nome = nome;
+    }
+}
+```
+
+
+
+
+
+
