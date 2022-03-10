@@ -23,6 +23,13 @@ if (condição) {
   // Ação caso todas as condiçoes anteriores forem falsas
 }
 ```
+
+Operador ternário usando quando se deseja atribuir um valor a uma variável dependendo de uma condição ou seja substitui o if else 
+```
+condição ? ação casso a condição e verdadeira : ação casso a condição e falsa ;
+}
+```
+
 Tipos de condiçoes
 ```
 Menor que: a < b
@@ -95,14 +102,7 @@ String texto = teclado.nextLine ();
 }
 ```
 
-## **Operador ternário**
-Usando quando se deseja atribuir um valor a uma variável dependendo de uma condição ou seja substitui o if else 
-```
-condição ? ação casso a condição e verdadeira : ação casso a condição e falsa ;
-}
-```
-
-## ** Classe e objetos**
+## **Classe e objetos**
 Uma forma de criar um objeto e pela criando uma class
 ```
 // ex:
@@ -114,8 +114,7 @@ public class Funcionario {
 }
 ```
 
-## ** Construtores**
-O construtor tem o mesmo nome da class
+O construtor tem o mesmo nome da class e serve para criar o objeto
 ```
 // ex:
 
@@ -131,6 +130,28 @@ public class Funcionario {
         this.salario = salario;
         this.nome = nome;
     }
+}
+```
+
+## **Operador ternário**
+Tipos de array
+```
+// Array primitivos 
+byte[] arrayBytes;
+short[] arrayShorts;
+long[] arrayLongs;
+float[] arrayFloat;
+double[] arrauDouble;
+boolean[] arrayBooleans;
+char[] arrayChars;
+
+// Array referencia
+String[] arrayNomes;
+Cliente[] arrayCliente;
+
+// Array multidimensionais
+int[][] matriz;
+String[][] nomes;
 }
 ```
 
