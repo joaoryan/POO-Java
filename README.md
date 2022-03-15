@@ -161,28 +161,36 @@ public class Funcionario {
 }
 ```
 
+Os metodos são açoes e comportamentos que a classe realiza
+```
+// ex:
+
+public class Funcionario {
+    int idade;
+    int cpf;
+    float salario;
+    String nome;
+
+    Funcionario(int idade, int cpf, float salario, String nome){
+        this.idade = idade;
+        this.cpf = cpf;
+        this.salario = salario;
+        this.nome = nome;
+    }
+    
+    // METODO
+    void nomeMetodo {
+      // ação que o metodo realiza
+    }
+}
+```
+
 ## **Operador ternário**
 **[⬆ back to top](#table-of-contents)**
 
-Tipos de array
+!!!!!!!!!!!!!!!
 ```
-// Array primitivos 
-byte[] arrayBytes;
-short[] arrayShorts;
-long[] arrayLongs;
-float[] arrayFloat;
-double[] arrauDouble;
-boolean[] arrayBooleans;
-char[] arrayChars;
 
-// Array referencia
-String[] arrayNomes;
-Cliente[] arrayCliente;
-
-// Array multidimensionais
-int[][] matriz;
-String[][] nomes;
-}
 ```
 
 
