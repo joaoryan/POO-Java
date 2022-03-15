@@ -2,7 +2,23 @@
 
 Estudos sobre progamação orientados a objetos utilizando java, realizada no curso de Engenharia de Software 
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Variaveis](#variaveis)
+3. [if else](#if-else)
+4. [Switch](#switch)
+5. [For loop](#for-loop)
+6. [While loop](#while-loop)
+7. [Entrada de dados](#entrada-de-dados)
+8. [Classe e objetos](#classe-e-objetos)
+9. [Operador ternário](#operador-ternário)
+
+
+
 ## **Variaveis**
+**[⬆ back to top](#table-of-contents)**
+
 Variáveis são contêineres para armazenar valores de dados
 ```
 String- armazena texto como mais de um caracter
@@ -13,6 +29,8 @@ boolean- armazena valores com dois estados: verdadeiro ou falso
 ```
 
 ## **if else**
+**[⬆ back to top](#table-of-contents)**
+
 Usado para realizar condiçoes no codigo  
 ```
 if (condição) {
@@ -41,6 +59,8 @@ Diferente de: a != b
 ```
 
 ## **Switch**
+**[⬆ back to top](#table-of-contents)**
+
 Usando switch podera cirar case que se forem igual a expresão realizam uma ação
 ```
 switch(expression) {
@@ -56,6 +76,8 @@ switch(expression) {
 ```
 
 ## **For loop**
+**[⬆ back to top](#table-of-contents)**
+
 Usando como estutura de repetição, podemos definir quantas vezes será repetido
 ```
 for (int i = 0; i < 6; i++) {
@@ -64,6 +86,8 @@ for (int i = 0; i < 6; i++) {
 ```
 
 ## **While loop**
+**[⬆ back to top](#table-of-contents)**
+
 Usando como estutura de repetição que se repete quando a condição for verdadeira
 ```
 while (condição) {
@@ -79,6 +103,8 @@ while (condição);
 ```
 
 ## **Entrada de dados**
+**[⬆ back to top](#table-of-contents)**
+
 Para realizar uma entrada de dados você prescisa importar a biblioteca java.util.Scanner 
 ```
 import java.util.Scanner;
@@ -103,6 +129,8 @@ String texto = teclado.nextLine ();
 ```
 
 ## **Classe e objetos**
+**[⬆ back to top](#table-of-contents)**
+
 Uma forma de criar um objeto e pela criando uma class
 ```
 // ex:
@@ -134,6 +162,8 @@ public class Funcionario {
 ```
 
 ## **Operador ternário**
+**[⬆ back to top](#table-of-contents)**
+
 Tipos de array
 ```
 // Array primitivos 
