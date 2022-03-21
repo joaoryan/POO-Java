@@ -185,11 +185,18 @@ public class Funcionario {
 }
 ```
 
-## **Operador ternário**
+## **Modificadores de acesso**
 **[⬆ back to top](#table-of-contents)**
 
-!!!!!!!!!!!!!!!
+
+| Modificador |     Classe     |   Mesmo pacote   | Pacote diferente(subclasse) | Pacote diferente(global)
+| :---------- | :----------:   |:-----------------: |:-------------------------:|:-----------------------:
+| public      |      ok        |        ok          |             ok            |          ok
+| protected   |      ok        |        ok          |             ok            |          X
+| default     |      ok        |        ok          |             X             |          X
+| private     |      ok        |        X           |             X             |          X
 ```
+
 
 ```
 
