@@ -12,7 +12,7 @@ Estudos sobre progamação orientados a objetos utilizando java, realizada no cu
 6. [While loop](#while-loop)
 7. [Entrada de dados](#entrada-de-dados)
 8. [Classe e objetos](#classe-e-objetos)
-9. [Operador ternário](#operador-ternário)
+9. [Modificadores de acesso](#modificadores-de-acesso)
 
 
 
@@ -188,6 +188,7 @@ public class Funcionario {
 ## **Modificadores de acesso**
 **[⬆ back to top](#table-of-contents)**
 
+Serve para limitar o acesso aos dados, aumentando o nivel de segurança e organização do sistema
 
 | Modificador |     Classe     |   Mesmo pacote   | Pacote diferente(subclasse) | Pacote diferente(global)
 | :---------- | :----------:   |:-----------------: |:-------------------------:|:-----------------------:
