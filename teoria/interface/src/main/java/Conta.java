@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Conta {
+public interface Conta {
+    void depositar(double valor);
+    void sacar(double valor);
+    double getSaldo();
 }

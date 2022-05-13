@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class GeradorExtratos {
+public class GeradorExtratos {
+    public void geradorConta(Conta conta){
+        System.out.println("Saldo Atual: "+conta.getSaldo());
+    }
 }
